@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>pacman</title>
+
+</head>
+<body>
+    <div id="wrapper">
+
+        <div id="canvas">
+        </div>
+    </div>
+
+    <form onsubmit="download()">
+        <input type="submit" value="Download">
+    </form>
+
+    <div id="dimensions">
+        <input id="width" value="5" />
+        <br/>
+        <input id="height" value="5" />
+        <br/>
+        <button onclick="createField()">Generate</button>
+    </div>
+
+    <script src="pacman.js"></script>
+</body>
+</html>
